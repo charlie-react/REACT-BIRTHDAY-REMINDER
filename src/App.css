@@ -6,6 +6,46 @@
   height: 40vmin;
   pointer-events: none;
 }
+ 
+.ima {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  margin-right: 0.75rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  margin-left: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+.flex p{
+  margin-top: -12px;
+}
+.main-sec{
+  background: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 14px;
+}
+button{
+ width: 80%;
+ background: plum;
+ border: none;
+ padding: 0.5rem;
+border-radius: 8px;
+margin-left: 1.7rem;
+margin-top: 0.7rem;
+margin-bottom: 0.4rem;
+color: white;
+}
+button:hover{
+  cursor: pointer;
+}
+.title{
+  margin-left: 1.7rem;
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -34,5 +74,12 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (min-width:760px) {
+  .main-sec{
+    width: 50%;
   }
 }
